@@ -3361,7 +3361,7 @@
 	)
 	(text "specced a 4A slow blow fuse\ncoil runs 1A at full power\n\nshould be fine. just want to make \nsure a trace doesn't detonate"
 		(exclude_from_sim no)
-		(at 162.052 39.624 0)
+		(at 140.716 28.702 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3432,12 +3432,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ccd27a2-e83e-431a-9200-91b17031efe9")
-	)
-	(junction
-		(at 116.84 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b6dd0bc-aa70-455a-8f75-21503bd2374a")
 	)
 	(junction
 		(at 152.4 90.17)
@@ -3839,7 +3833,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 129.54) (xy 116.84 129.54)
+			(xy 107.95 129.54) (xy 138.43 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3849,13 +3843,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 46.99) (xy 142.24 46.99)
+			(xy 139.7 46.99) (xy 144.78 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "838767b3-e5a3-41a8-b111-804b296fb153")
+		(uuid "8205b162-84f1-4754-a7ef-4c648ff6eec2")
 	)
 	(wire
 		(pts
@@ -3906,16 +3900,6 @@
 			(type default)
 		)
 		(uuid "99b2b8d8-d628-4e41-92ba-5c56e0c24acd")
-	)
-	(wire
-		(pts
-			(xy 116.84 129.54) (xy 138.43 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a020b05f-4246-4fb5-a409-a80badec8a90")
 	)
 	(wire
 		(pts
@@ -4610,85 +4594,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:AC")
-		(at 142.24 46.99 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34ee6e10-63de-46f2-99d5-77455d5718b4")
-		(property "Reference" "#PWR031"
-			(at 139.7 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AC_PROT"
-			(at 148.59 46.9899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 142.24 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d773ca42-ab56-4944-9898-5305d11204fd")
-		)
-		(instances
-			(project "MMS_SSTC"
-				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 123.19 49.53 0)
 		(mirror y)
@@ -5035,6 +4940,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 91.44 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66320a41-c47d-4759-b6f0-7d9e8cd2e6d6")
+		(property "Reference" "#PWR035"
+			(at 93.98 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AC_PROT"
+			(at 85.09 90.1699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 91.44 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "974895c4-3435-4478-bc81-5df327b77922")
+		)
+		(instances
+			(project "MMS_SSTC"
+				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 95.25 0)
 		(unit 1)
@@ -5368,7 +5352,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5396,7 +5380,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 127 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -5440,7 +5424,7 @@
 				)
 			)
 		)
-		(property "DKPN" "160-1603-ND"
+		(property "DKPN" "2007-BL-BBX1V4V-2-B02-ND"
 			(at 127 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -5878,7 +5862,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+170V\""
 			(at 149.86 127 0)
 			(hide yes)
 			(show_name no)
@@ -6313,6 +6297,85 @@
 			(project "MMS_SSTC"
 				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 144.78 46.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8dbcb47-b54d-41d3-8ef3-94cc24dcce20")
+		(property "Reference" "#PWR031"
+			(at 142.24 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AC_PROT"
+			(at 151.13 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 144.78 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12f32f9d-2b1b-41ac-9d09-dc50fad9aad5")
+		)
+		(instances
+			(project "MMS_SSTC"
+				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6848,85 +6911,6 @@
 			(project "MMS_SSTC"
 				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:AC")
-		(at 91.44 90.17 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3b2389c-6421-456a-8840-b0bc988248bd")
-		(property "Reference" "#PWR020"
-			(at 93.98 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AC_PROT"
-			(at 85.09 90.1699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 91.44 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4d12aabf-5837-43b3-827a-c38bfa33d972")
-		)
-		(instances
-			(project "MMS_SSTC"
-				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)

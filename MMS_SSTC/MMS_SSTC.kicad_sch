@@ -4058,6 +4058,7 @@
 	)
 	(label "DRAIN"
 		(at 172.72 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4065,6 +4066,18 @@
 			(justify left bottom)
 		)
 		(uuid "e3bd65b4-4137-4aa2-b31d-9dfbf16c433d")
+		(property "Net Class" "DRAIN"
+			(at 172.72 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "GATE"
 		(at 152.4 130.81 0)
