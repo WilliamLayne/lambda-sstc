@@ -1,0 +1,94 @@
+# ----- Settings for My Computer -----
+# Virtualbox shared folder files
+*.db
+*.db:encryptable
+
+# Dolphin .directory files (i run KDE)
+.directory
+
+# LibreOffice lock files
+.~lock.*
+
+
+
+# ----- SOLIDWORKS Settings -----
+
+# Solidworks session files
+*~$*
+
+# Solidworks fluid sim files
+$results_tmp
+*.tmp
+*.fld
+*.cpt
+~swp_*
+
+# Pack and go for when I inevitably forget
+Assembly.zip
+assembly.zip
+
+
+
+# ----- LaTeX Settings (Probably not needed but just in case) -----
+# LaTeX compilation files (I should try to find a better solution)
+main.aux
+main.bbl
+main.tex.bbl
+main.tex.blg
+main.bcf
+main.fdb_latexmk
+main.fls
+main.log
+main.out
+main.run.xml
+main.synctex(busy)
+missfont.log
+main.synctex.gz
+main.blg
+
+
+
+# ----- KiCad Settings (https://github.com/github/gitignore/blob/main/KiCad.gitignore) ------
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*-cache*
+*-bak
+*-bak*
+*~
+~*
+_autosave-*
+\#auto_saved_files\#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+#*.csv (i kinda want this actually?)
+
+# Archived Backups (KiCad 6.0)
+**/*-backups/*.zip
+
+# Local git-based history (KiCad 9.0+)
+.history
+
+# Local project settings
+*.kicad_prl
+
+# Any zip folders (just gerber files I'm sending to JLC really)
+*.zip
