@@ -4152,7 +4152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07d63a28-00b9-4a20-97e2-051b92630c97")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 141.224 138.938 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4227,7 +4227,7 @@
 		(instances
 			(project "MMS_SSTC"
 				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5974,7 +5974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3a31762-40ca-45f0-9721-6043e6cb4c38")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 135.89 94.488 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6049,7 +6049,7 @@
 		(instances
 			(project "MMS_SSTC"
 				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6143,7 +6143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b261159c-7d66-40fb-9e25-1debef9da960")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 152.908 139.192 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6218,7 +6218,7 @@
 		(instances
 			(project "MMS_SSTC"
 				(path "/b29a3901-c128-4c19-b69f-61de71283b43/bfaa6adf-6b83-46d0-b8b3-f415df3d6008"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
