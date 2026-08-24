@@ -6157,7 +6157,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4T:800T"
+		(property "Value" "4T:700T"
 			(at 213.36 132.4609 90)
 			(show_name no)
 			(do_not_autoplace no)

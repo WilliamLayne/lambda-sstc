@@ -3339,6 +3339,16 @@
 		)
 		(uuid "c600899e-c117-4dd5-9a1b-a975c5e20177")
 	)
+	(text "i dont remember why i hate this rectifier"
+		(exclude_from_sim no)
+		(at 130.048 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d09e430d-0e32-4181-b82d-5eaea407d60a")
+	)
 	(text "Live from the cord is soldered \nor otherwise connected to the switch by us.\n\nWires out from the switch (HT_SW) then\nconnect to a terminal block. (labeled very well\n+ wires naturally in correct order)\n\nTerminal block wires on the PCB to protective components,\nand AC_PROT is finally used for power."
 		(exclude_from_sim no)
 		(at 44.196 24.13 0)
